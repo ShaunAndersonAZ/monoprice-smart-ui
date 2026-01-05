@@ -10,7 +10,7 @@ Mobile-friendly web UI to control a Monoprice 6-Zone amp (Model 10761) over RS-2
 - No auth (local LAN only)
 
 > References:
-> - Home Assistant models zones `11..16`, `21..26`, `31..36`; we only enable `11..16` here. https://www.home-assistant.io/integrations/monoprice/
+> - Monoprice User Manual: https://www.github.com/ShaunAndersonAZ/monoprice-smart-ui/blob/main/10761_Manual_131209.pdf
 > - If you ever chain amps, use the **master RS-232 port** only; slaves bridge via ribbon cable. https://www.cinemationinc.com/drivers/elan/pdf/IntegrationNote_Monoprice%2010761_RS232.pdf
 
 ## RS-232 command format (this project)
