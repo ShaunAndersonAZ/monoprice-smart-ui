@@ -53,6 +53,11 @@ npm start
 # browse http://<vm-ip>:8080
 ```
 
+## Add execution user to 'dialout' group
+```bash
+usermod -a -G dialout <username>
+```
+
 ## Optional: Systemd service
 ```bash
 sudo tee /etc/systemd/system/monoprice-smart-ui.service >/dev/null <<'UNIT'
